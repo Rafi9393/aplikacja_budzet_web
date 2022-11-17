@@ -104,3 +104,102 @@ a
 	position: relative;
 	right: 4px;
 }
+
+.nav
+{ 
+	width: 90%;
+	padding: 10px;
+	background-color: #c34f4f;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+	text-align: center;
+}
+
+
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+#main_container
+{
+	background-color: #292929;
+	width: 70%;
+	height: 500px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	-webkit-box-shadow: 0px 0px 51px 2px rgba(41, 41, 41, 1);
+	-moz-box-shadow: 0px 0px 51px 2px rgba(41, 41, 41, 1);
+	box-shadow: 0px 0px 51px 2px rgba(41, 41, 41, 1);
+}
+
+#user_menu
+{
+	width: 50px;
+	height: 40px;
+	float: right;
+	text-align: center;
+	display: inline-block;
+	margin-top: 0px;
+	
+}
+
+/* http://caniuse.com/#search=variables */
+:root {
+  --avatar-size: 40px
+  /* change this value anything, e.g., 100px, 10rem, etc. */
+}
+
+.circle {
+  background-color: #8d6e63;
+  border-radius: 50%;
+  height: var(--avatar-size);
+  text-align: center;
+  width: var(--avatar-size);
+  
+}
+
+.initials {
+  font-size: calc(var(--avatar-size) / 2);
+  line-height: 1;
+  position: relative;
+  top: calc(var(--avatar-size) / 4.5); 
+ 
+}
+
