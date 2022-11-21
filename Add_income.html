@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Budzet osobisty</title>
+	<meta name="description" content="Planer budzetu osobistego. Ogarnij swoje finanse w kilku prostych krokach">
+	<meta name="keywords" content="finanse, pieniadze, budzet, wydatki, oszczednosci">
+	<meta name="author" content="Rafal Kasperkiewicz">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<div class="nav">
+		<ol>
+			<li><a href="index.html">Strona główna</a></li>
+			<li><a href="Add_income.html">Dodaj wydatek</a></li>
+			<li><a href="#">Dodaj przychód</a></li>
+			<li><a href="#">Przegląd bilansu</a></li>
+		</ol>
+		<div id="user_menu">
+			<div class="circle">
+				<span class="initials">RK</span>
+			</div>
+		</div>
+	</div>
+		
+	<div id="main_container">
+	
+		<div class="header">
+		Dodaj przychód
+		</div>
+		<div class="form">
+			<form>
+			
+				<div class="form_option"> <div class="box_des"> Kwota: </div> <input class="add_form_box" type="text"></div>
+			
+				<div class="form_option"> <div class="box_des"> Data: </div> <input class="add_form_box" type="text"></div>
+				
+				
+				<div class="control-group">
+					<label class="control control-radio">
+						Wynagrodzenie
+						<input type="radio" name="radio" checked="checked" />
+						<div class="control_indicator"></div>
+					</label>
+					<label class="control control-radio">
+						Odsetki bankowe
+						<input type="radio" name="radio" />
+						<div class="control_indicator"></div>
+					</label>
+					<label class="control control-radio">
+						Sprzedaż Allegro
+						<input type="radio" name="radio" />
+						<div class="control_indicator"></div>
+					</label>
+					<label class="control control-radio">
+						Inne
+						<input type="radio" name="radio" />
+						<div class="control_indicator"></div>
+					</label>
+				</div>
+			
+				<div class="comment_form_option"> <div class="box_des"> Komentarz(opcjonalne): </div> <input class="coment_form_box" type="text"></div>
+				
+				<input type="submit" value="Dodaj">
+			
+			</form>
+		</div>
+		
+	</div>
+
+</body>
+</html>
